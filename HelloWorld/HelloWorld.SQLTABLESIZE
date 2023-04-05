@@ -1,0 +1,179 @@
+
+<config name="SQL Table Size" version="1.0.0.0" extraction-date="2012/07/04" >  
+
+<oracle castformat="7.0">                                                       
+
+<server name="nlaxplap3" >                                                        
+
+<schema name="PARTICIPATING_JEE">                                                          
+
+<table name="MVIEW$_ADV_WORKLOAD" rows="0"/>                                    
+<table name="MVIEW$_ADV_BASETABLE" rows="0"/>                                   
+<table name="MVIEW$_ADV_SQLDEPEND" rows="0"/>                                   
+<table name="MVIEW$_ADV_PRETTY" rows="0"/>                                      
+<table name="MVIEW$_ADV_TEMP" rows="0"/>                                        
+<table name="MVIEW$_ADV_FILTER" rows="0"/>                                      
+<table name="MVIEW$_ADV_LOG" rows="0"/>                                         
+<table name="MVIEW$_ADV_FILTERINSTANCE" rows="0"/>                              
+<table name="MVIEW$_ADV_LEVEL" rows="0"/>                                       
+<table name="MVIEW$_ADV_ROLLUP" rows="0"/>                                      
+<table name="MVIEW$_ADV_AJG" rows="0"/>                                         
+<table name="MVIEW$_ADV_FJG" rows="0"/>                                         
+<table name="MVIEW$_ADV_GC" rows="0"/>                                          
+
+<table name="MVIEW$_ADV_CLIQUE" rows="0"/>                                      
+<table name="MVIEW$_ADV_ELIGIBLE" rows="0"/>                                    
+<table name="MVIEW$_ADV_OUTPUT" rows="0"/>                                      
+<table name="MVIEW$_ADV_EXCEPTIONS" rows="0"/>                                  
+<table name="MVIEW$_ADV_PARAMETERS" rows="40"/>                                 
+<table name="MVIEW$_ADV_INFO" rows="0"/>                                        
+<table name="MVIEW$_ADV_JOURNAL" rows="0"/>                                     
+<table name="MVIEW$_ADV_PLAN" rows="0"/>                                        
+<table name="AQ$_QUEUE_TABLES" rows="9"/>                                       
+<table name="AQ$_QUEUES" rows="17"/>                                            
+<table name="AQ$_SCHEDULES" rows="0"/>                                          
+<table name="AQ$_INTERNET_AGENTS" rows="4"/>                                    
+<table name="AQ$_INTERNET_AGENT_PRIVS" rows="3"/>                               
+
+<table name="DEF$_AQCALL" rows="0"/>                                            
+<table name="DEF$_AQERROR" rows="0"/>                                           
+<table name="DEF$_ERROR" rows="0"/>                                             
+<table name="DEF$_DESTINATION" rows="0"/>                                       
+<table name="DEF$_CALLDEST" rows="0"/>                                          
+<table name="DEF$_DEFAULTDEST" rows="0"/>                                       
+<table name="DEF$_LOB" rows="0"/>                                               
+<table name="DEF$_TEMP$LOB" rows="0"/>                                          
+<table name="DEF$_PROPAGATOR" rows="0"/>                                        
+<table name="DEF$_ORIGIN" rows="0"/>                                            
+<table name="DEF$_PUSHED_TRANSACTIONS" rows="0"/>                               
+<table name="LOGMNR_PARAMETER$" rows="0"/>                                      
+<table name="LOGMNR_SESSION$" rows="0"/>                                        
+
+<table name="LOGSTDBY$PARAMETERS" rows="0"/>                                    
+<table name="LOGSTDBY$EVENTS" rows="0"/>                                        
+<table name="LOGSTDBY$APPLY_MILESTONE" rows="0"/>                               
+<table name="LOGSTDBY$SCN" rows="0"/>                                           
+<table name="LOGSTDBY$PLSQL" rows="0"/>                                         
+<table name="LOGSTDBY$SKIP_TRANSACTION" rows="0"/>                              
+<table name="LOGSTDBY$SKIP" rows="0"/>                                          
+<table name="LOGSTDBY$SKIP_SUPPORT" rows="103"/>                                
+<table name="LOGSTDBY$HISTORY" rows="0"/>                                       
+<table name="REPCAT$_REPCAT" rows="0"/>                                         
+<table name="REPCAT$_FLAVORS" rows="0"/>                                        
+<table name="REPCAT$_REPSCHEMA" rows="0"/>                                      
+<table name="REPCAT$_SNAPGROUP" rows="0"/>                                      
+
+<table name="REPCAT$_REPOBJECT" rows="0"/>                                      
+<table name="REPCAT$_REPCOLUMN" rows="0"/>                                      
+<table name="REPCAT$_KEY_COLUMNS" rows="0"/>                                    
+<table name="REPCAT$_GENERATED" rows="0"/>                                      
+<table name="REPCAT$_REPPROP" rows="0"/>                                        
+<table name="REPCAT$_REPCATLOG" rows="0"/>                                      
+<table name="REPCAT$_DDL" rows="0"/>                                            
+<table name="REPCAT$_REPGROUP_PRIVS" rows="0"/>                                 
+<table name="REPCAT$_PRIORITY_GROUP" rows="0"/>                                 
+<table name="REPCAT$_PRIORITY" rows="0"/>                                       
+<table name="REPCAT$_COLUMN_GROUP" rows="0"/>                                   
+<table name="REPCAT$_GROUPED_COLUMN" rows="0"/>                                 
+<table name="REPCAT$_CONFLICT" rows="0"/>                                       
+
+<table name="REPCAT$_RESOLUTION_METHOD" rows="19"/>                             
+<table name="REPCAT$_RESOLUTION" rows="0"/>                                     
+<table name="REPCAT$_RESOLUTION_STATISTICS" rows="0"/>                          
+<table name="REPCAT$_RESOL_STATS_CONTROL" rows="0"/>                            
+<table name="REPCAT$_PARAMETER_COLUMN" rows="0"/>                               
+<table name="REPCAT$_AUDIT_ATTRIBUTE" rows="2"/>                                
+<table name="REPCAT$_AUDIT_COLUMN" rows="0"/>                                   
+<table name="REPCAT$_FLAVOR_OBJECTS" rows="0"/>                                 
+<table name="REPCAT$_TEMPLATE_STATUS" rows="3"/>                                
+<table name="REPCAT$_TEMPLATE_TYPES" rows="2"/>                                 
+<table name="REPCAT$_REFRESH_TEMPLATES" rows="0"/>                              
+<table name="REPCAT$_USER_AUTHORIZATIONS" rows="0"/>                            
+<table name="REPCAT$_OBJECT_TYPES" rows="28"/>                                  
+
+<table name="REPCAT$_TEMPLATE_REFGROUPS" rows="0"/>                             
+<table name="REPCAT$_TEMPLATE_OBJECTS" rows="0"/>                               
+<table name="REPCAT$_TEMPLATE_PARMS" rows="0"/>                                 
+<table name="REPCAT$_OBJECT_PARMS" rows="0"/>                                   
+<table name="REPCAT$_USER_PARM_VALUES" rows="0"/>                               
+<table name="REPCAT$_TEMPLATE_SITES" rows="0"/>                                 
+<table name="REPCAT$_SITE_OBJECTS" rows="0"/>                                   
+<table name="REPCAT$_RUNTIME_PARMS" rows="0"/>                                  
+<table name="REPCAT$_TEMPLATE_TARGETS" rows="0"/>                               
+<table name="REPCAT$_EXCEPTIONS" rows="0"/>                                     
+<table name="REPCAT$_INSTANTIATION_DDL" rows="0"/>                              
+<table name="REPCAT$_EXTENSION" rows="0"/>                                      
+<table name="REPCAT$_SITES_NEW" rows="0"/>                                      
+
+<table name="SQLPLUS_PRODUCT_PROFILE" rows="0"/>                                
+<table name="HELP" rows="978"/>                                                 
+<table name="MVIEW$_ADV_INDEX" rows="0"/>                                       
+<table name="MVIEW$_ADV_PARTITION" rows="0"/>                                   
+<table name="CUSTOMER" rows="10000"/>                                               
+<table name="FACTURE" rows="0"/>                                                
+<table name="COUNTRY" rows="0"/>                                                
+<table name="CONTRAT" rows="0"/>                                                
+<table name="CONTRAT_TYPE" rows="0"/>                                           
+<table name="BUSINESS_TYPE" rows="0"/>                                          
+<table name="FACTURATION_TYPE" rows="0"/>                                       
+<table name="COMPANY_TYPE" rows="0"/>                                           
+<table name="COMPANY" rows="0"/>                                                
+
+<table name="MD_ADJ_DETAIL" rows="0"/>                                          
+<table name="MVIEW$_ADV_OWB" rows="0"/>                                         
+<table name="LOGSTDBY$APPLY_PROGRESS" rows="0"/>                                
+<table name="LOGMNRT_MDDL$" rows="0"/>                                          
+<table name="LOGMNR_INDCOMPART$" rows="0"/>                                     
+<table name="LOGMNR_INDSUBPART$" rows="0"/>                                     
+<table name="LOGMNR_INDPART$" rows="0"/>                                        
+<table name="LOGMNR_LOBFRAG$" rows="0"/>                                        
+<table name="LOGMNR_ICOL$" rows="0"/>                                           
+<table name="LOGMNR_CCOL$" rows="0"/>                                           
+<table name="LOGMNR_CDEF$" rows="0"/>                                           
+<table name="LOGMNR_LOB$" rows="0"/>                                            
+<table name="LOGMNR_ATTRIBUTE$" rows="0"/>                                      
+
+<table name="LOGMNR_COLTYPE$" rows="0"/>                                        
+<table name="LOGMNR_TYPE$" rows="0"/>                                           
+<table name="LOGMNR_TABCOMPART$" rows="0"/>                                     
+<table name="LOGMNR_TABSUBPART$" rows="0"/>                                     
+<table name="LOGMNR_TABPART$" rows="0"/>                                        
+<table name="LOGMNR_IND$" rows="0"/>                                            
+<table name="LOGMNR_TS$" rows="0"/>                                             
+<table name="LOGMNR_ATTRCOL$" rows="0"/>                                        
+<table name="LOGMNR_COL$" rows="0"/>                                            
+<table name="LOGMNR_TAB$" rows="0"/>                                            
+<table name="LOGMNRC_GSII" rows="0"/>                                           
+<table name="LOGMNRC_GTCS" rows="0"/>                                           
+<table name="LOGMNRC_GTLO" rows="0"/>                                           
+
+<table name="LOGMNR_USER$" rows="0"/>                                           
+<table name="LOGMNR_OBJ$" rows="0"/>                                            
+<table name="LOGMNR_DICTIONARY$" rows="0"/>                                     
+<table name="LOGMNR_DICTSTATE$" rows="0"/>                                      
+<table name="OL$NODES" rows="0"/>                                               
+<table name="OL$HINTS" rows="0"/>                                               
+<table name="OL$" rows="0"/>                                                    
+<table name="LOGMNRC_DBNAME_UID_MAP" rows="0"/>                                 
+<table name="LOGMNR_UID$" rows="0"/>                                            
+<table name="LOGMNR_HEADER1$" rows="0"/>                                        
+<table name="LOGMNRP_CTAS_PART_MAP" rows="0"/>                                  
+<table name="LOGMNR_SESSION_EVOLVE$" rows="0"/>                                 
+<table name="LOGMNR_PROCESSED_LOG$" rows="0"/>                                  
+
+<table name="LOGMNR_FILTER$" rows="0"/>                                         
+<table name="LOGMNR_LOG$" rows="0"/>                                            
+<table name="LOGMNR_RESTART_CKPT$" rows="0"/>                                   
+<table name="LOGMNR_AGE_SPILL$" rows="0"/>                                      
+<table name="LOGMNR_HEADER2$" rows="0"/>                                        
+<table name="LOGMNR_ERROR$" rows="0"/>                                          
+<table name="LOGMNR_RESTART_CKPT_TXINFO$" rows="0"/>                            
+<table name="LOGMNR_SPILL$" rows="0"/>                                          
+
+</schema>                                                                       
+
+</server>                                                                       
+
+</oracle>                                                                       
+
+</config>                                                                       

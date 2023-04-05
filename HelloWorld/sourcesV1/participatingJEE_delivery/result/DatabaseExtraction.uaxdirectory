@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<UAXFiles>
+ <UAXOption name="configurationVersion" value="1.4"/>
+ <UAXOption name="platform" value="Oracle10g"/>
+ <UAXOption name="RDBMS.Version" value="10.2.0.3.0"/>
+ <UAXOption name="format" value="text"/>
+ <UAXOption name="totalFatalExtractionErrorsNb" value="0"/>
+ <UAXOption name="totalExtractionErrorsNb" value="0"/>
+ <UAXOption name="schema" value="PARTICIPATING_JEE"/>
+ <UAXOption name="RDBMS.Name" value="Oracle Server"/>
+ <UAXOption name="totalExportedRowsNb" value="124"/>
+ <UAXOption name="platform.type" value="2"/>
+ <UAXOption name="technicalVersion" value="1.00"/>
+ <UAXOption name="platform.description" value="PL/SQL"/>
+ <UAXOption name="configurationFilePath" value="CASTDatabase.config"/>
+ <UAXFile path="p_Server.1.uax" name="nlaxplap3" type="CAST_SQL_Machine">
+  <UAXFile path="p_Instance.1.uax" name="CQCUSER" type="CAST_SQL_Instance">
+   <UAXFile path="p_Schema.1.uax" name="PARTICIPATING_JEE" type="CAST_SQL_Schema">
+    <UAXFile path="VASTCreateTable.1.uax" name="CUSTOMER" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.2.uax" name="HW_BUSINESS_TYPE" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.3.uax" name="HW_COMPANY" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.4.uax" name="HW_COMPANY_TYPE" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.5.uax" name="HW_CONTRAT" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.6.uax" name="HW_CONTRAT_TYPE" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.7.uax" name="HW_COUNTRY" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.8.uax" name="HW_FACTURATION_TYPE" type="CAST_Oracle_RelationalTable"/>
+    <UAXFile path="VASTCreateTable.9.uax" name="HW_FACTURE" type="CAST_Oracle_RelationalTable"/>
+   </UAXFile>
+  </UAXFile>
+ </UAXFile>
+</UAXFiles>

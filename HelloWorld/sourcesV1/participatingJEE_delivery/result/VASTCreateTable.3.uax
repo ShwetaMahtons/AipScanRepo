@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<instances>
+ <instance id="VASTCreateTable.3" instanceOf="CAST_Oracle_RelationalTable">
+  <CAST_SQL_Object owner="PARTICIPATING_JEE" version="10.2.0.3.0" objectId="563362"/>
+  <CAST_ANSISQL_TableSource scope=""/>
+  <CAST_Resolution_Identification resolutionName="HW_COMPANY"/>
+  <CAST_Linker_ExportedSymbol isPublic="1" exportCollation="2" exportedCategory="138016" exportedPath="CQCUSER.PARTICIPATING_JEE" exportName="HW_COMPANY" exportExtension=""/>
+  <CAST_AST_ANSISQL_WithAnonymousClause anonymousClause="" onCommit=""/>
+  <CAST_Symbol_WithParent parent="p_Schema.1"/>
+  <POSITIONABLE POSITIONS="CAST_TargetSourceFile.3(1,1,7,-1)"/>
+ </instance>
+ <instance id="CAST_TargetSourceFile.3" instanceOf="CAST_TargetSourceFile">
+  <bookmark source="VASTCreateTable.3.src"/>
+  <shell fullPath="VASTCreateTable.3.src"/>
+ </instance>
+<instance id="p_ColumnOfTable.11" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="1"/>
+ <CAST_SQL_Object version="10.2.0.3.0"/>
+ <CAST_ANSISQL_Column isNull="1" columnSize="22"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation=""/>
+ <CAST_Resolution_Identification resolutionName="ID_COMPANY"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.3"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="NUMBER" length="22" precision="" scale="0"/>
+</instance>
+<instance id="p_ColumnOfTable.12" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="2"/>
+ <CAST_SQL_Object version="10.2.0.3.0"/>
+ <CAST_ANSISQL_Column isNull="1" columnSize="255"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation="CHAR_CS"/>
+ <CAST_Resolution_Identification resolutionName="NAME"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.3"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="VARCHAR2" length="255" precision="" scale=""/>
+</instance>
+<instance id="p_ColumnOfTable.13" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="3"/>
+ <CAST_SQL_Object version="10.2.0.3.0"/>
+ <CAST_ANSISQL_Column isNull="1" columnSize="255"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation="CHAR_CS"/>
+ <CAST_Resolution_Identification resolutionName="DESCRIPTION"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.3"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="VARCHAR2" length="255" precision="" scale=""/>
+</instance>
+<instance id="p_ColumnOfTable.14" instanceOf="CAST_Oracle_TableColumn">
+ <CAST_AST_ANSISQL_WithOrder order="4"/>
+ <CAST_SQL_Object version="10.2.0.3.0"/>
+ <CAST_ANSISQL_Column isNull="1" columnSize="255"/>
+ <CAST_AST_ANSISQL_WithGenericDataType collation="CHAR_CS"/>
+ <CAST_Resolution_Identification resolutionName="BUSINESS"/>
+ <CAST_Symbol_WithParent parent="VASTCreateTable.3"/>
+ <CAST_AST_ANSISQL_GenericDatatypeAttributes typeName="VARCHAR2" length="255" precision="" scale=""/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.11" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.14"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.4"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.12" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.13"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.4"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.13" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.11"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.19"/>
+</instance>
+<instance id="CAST_AST_ANSISQL_ColumnDataTypeReference.14" instanceOf="CAST_AST_ANSISQL_ColumnDataTypeReference">
+ <CAST_AST_WithParent parentAST="p_ColumnOfTable.12"/>
+ <CAST_AST_WithResolutionSymbolReference resolutionSymbol="p_DataType.4"/>
+</instance>
+</instances>
